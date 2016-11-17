@@ -1,9 +1,9 @@
-[submodule "bash_completion.d/maven-bash-completion"]
-	path = bash_completion.d/maven-bash-completion
-	url = git@github.com:juven/maven-bash-completion.git
-[submodule "bash-git-prompt"]
-	path = bash-git-prompt
-	url = git@github.com:magicmonty/bash-git-prompt.git
 [submodule "bash_completion.d/git-bash-completion"]
 	path = bash_completion.d/git-bash-completion
 	url = git@github.com:markgandolfo/git-bash-completion.git
+[submodule "bash-git-prompt"]
+	path = bash-git-prompt
+	url = git@github.com:magicmonty/bash-git-prompt.git
+[submodule "bash_completion.d/maven-bash-completion"]
+	path = bash_completion.d/maven-bash-completion
+	url = git@github.com:juven/maven-bash-completion.git
