@@ -1,4 +1,5 @@
 #!/bin/bash
+# HomeOffice settings
 #
 # switch off and wait before switch on; bug in acpi of dell monitor or dell base station
 
@@ -18,8 +19,7 @@ xrandr --output VIRTUAL1 --off \
        --output DP1 --off \
        --output HDMI2 --off \
        --output HDMI1 --off \
-       --output DP1-1 --mode 1920x1200 --pos 0x0 --rotate normal --primary --crtc 1 \
-       --output DP1-2 --mode 1920x1200 --right-of DP1-1 --rotate normal --noprimary --crtc 2 \
+       --output DP1-1 --mode 3440x1440 --pos 0x0 --rotate normal --primary \
+       --output DP1-2 --off \
        --output DP1-3 --off \
        --output DP2 --off
-
