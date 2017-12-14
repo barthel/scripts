@@ -13,12 +13,11 @@ while ((count)); do
     ((count--))
 done
 
-xrandr --output VIRTUAL1 --off \
-       --output eDP1 --mode 1366x768 --pos 0x0 --rotate normal --noprimary \
-       --output DP1 --off \
-       --output HDMI2 --off \
-       --output HDMI1 --off \
-       --output DP1-1 --mode 1920x1200 --pos 0x0 --rotate normal --primary --crtc 1 \
-       --output DP1-2 --mode 1920x1200 --pos 0x0 --rotate normal --noprimary --crtc 2 \
-       --output DP1-3 --off \
-       --output DP2 --off
+xrandr --output eDP-1 --noprimary --mode 1366x768 --pos 0x0 --rotate normal \
+       --output DP-1 --off \
+       --output DP-1-1 --primary --mode 1920x1200 --pos 0x0 --rotate normal --crtc 1 \
+       --output DP-1-2 --noprimary --mode 1920x1200 --pos 0x0 --rotate normal --crtc 2 \
+       --output DP-1-3 --off \
+       --output DP-2 --off \
+       --output HDMI-1 --off \
+       --output HDMI-2 --off \
